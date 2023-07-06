@@ -1,0 +1,53 @@
+#carouselExampleControls img{
+    border-radius: 10px;
+}
+.prices{
+    margin-top: 20px;
+}
+
+.homeabout{
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.homeabout h4{
+    text-align: center;
+}
+.shortviews{
+    padding: 50px;
+}
+.shortviews img{
+    width: 100%;
+    border-radius: 10px;
+}
+#view{
+    margin-top: 15px;
+}
+.wave{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wave img{
+    width: 100px;
+}
+
+@media (max-width: 768px) {
+    .shortviews{
+        padding: 20px;
+    }
+    .homeabout{
+        padding: 20px;
+    }
+    .shortviews .col-3{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .shortviews .col-9{
+        width: 100%;
+    }
+    .carousel{
+        margin-top: 25px;
+    }
+    
+}

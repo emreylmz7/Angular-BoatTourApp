@@ -1,0 +1,22 @@
+.heading{
+    text-align: center;
+}
+img{
+    width: 100%;
+    margin: 5px;
+    border-radius: 7px;
+}
+p{
+    text-align: center;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .heading{
+        margin-top: 25px;
+    }
+    .col-4{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}

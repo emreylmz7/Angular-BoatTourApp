@@ -1,0 +1,28 @@
+.header{
+    margin-top: 20px;
+    background: url("../../assets/adrasan.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.header h1{
+    font-size: 60px;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;  
+}
+
+@media (max-width: 1025px) {
+    .header h1{
+        font-size: 35px;
+        background-color: rgba(255, 255, 255, 0.315);
+    }
+    
+}

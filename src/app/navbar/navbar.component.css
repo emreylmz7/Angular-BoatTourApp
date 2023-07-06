@@ -1,0 +1,113 @@
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin-bottom: 60px;
+}
+
+.logo-section{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.logo{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    text-shadow: 0px 0px 5px #000;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 35px;
+}
+
+.navbar a:last-child{
+    display: none;
+    transition: color 0.5s ease;
+}
+
+@media (max-width: 1025px) {
+    .navbar a{
+        display: none;
+    }
+    .navbar a:last-child{
+        display: flex;
+        margin-right: 0;
+        justify-content: end;
+        font-size: 30px;
+        position: absolute;
+        right: 15px;
+    }
+    .navbar a:last-child:hover{
+        color:rgb(17, 145, 145);
+    }
+    .header{
+        position: relative;
+        width: 100%;
+        top: 66px;
+        left: 0;
+    }
+    .responsive .navbar{
+        margin-bottom: 30px;
+    }
+    .responsive .navbar a:not(:last-child){
+        top: 35px;
+        background-color: rgba(0, 255, 255, 0.13);
+        border-radius: 10px;
+        text-align: center;
+    }
+    .responsive a{
+        
+        width: 100%;
+        display: block;
+        text-align: left;
+        margin: 0.5rem;
+    }
+    .responsive a:last-child{
+        position: absolute;
+        right: 15px;
+        top: 6px;
+    }
+    .main-nav{
+        display: block;
+    }
+}
+
+.navbar a:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #161616;
+    transition: .3s;
+}
+
+.navbar a:not(:last-child):hover:before {
+    width: 100%;
+}
+
+
+#contact_nav{
+    background-color: rgba(0, 255, 255, 0.164);
+    text-align: center;
+}
+@media (max-width: 768px) {
+    #contact_nav{
+        font-size: small;
+    }
+} 

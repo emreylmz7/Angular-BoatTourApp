@@ -1,0 +1,38 @@
+
+.footer {
+    background-image: url(../../assets/footerbg.jpg);
+    background-size: cover; 
+    background-position: center; 
+    height: auto; 
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px;
+}
+  
+.footer-content {
+    padding-top: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+.footer-content a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.footer-content a:hover{
+    color:white;
+    font-weight: bold;
+}
+.footer-content h4{
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 768px) {
+    .col-3{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .col-3 h4{
+        color: white;
+    }
+}
