@@ -1,27 +1,31 @@
-# BoatTourApp
+# Aqua Voyage - Boat Tour App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0.
+**Aqua Voyage** is a promotional app for a luxury boat tour company. This application provides information about Aqua Voyage’s services and tour routes. Please note that no reservation functionality is provided.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Tour Information**: Provides detailed information about the various tour packages and routes offered by Aqua Voyage.
+- **Gallery**: Includes images of the boat tours and routes.
+- **Information Pages**: Contains descriptions of Aqua Voyage's services and company information.
+- **User-Friendly Interface**: Offers a modern and intuitive design for easy navigation.
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To set up and run the project locally, follow these steps:
 
-## Build
+### Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Node.js**: Version 14 or higher.
+- **Angular CLI**: Should be installed globally.
 
-## Running unit tests
+## Screenshots
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![boattour7](https://github.com/user-attachments/assets/10803874-7b52-414c-b665-44b9e23e66df)
+![boattour](https://github.com/user-attachments/assets/0751dce0-750c-4451-a819-5161a6c1811d)
+![boattour2](https://github.com/user-attachments/assets/cb68c1ab-3795-4c43-8fd3-35cc1734ffa1)
+![boattour3](https://github.com/user-attachments/assets/8a4f1e99-7854-4fc8-aee4-c0c621d4006f)
+![boattour4](https://github.com/user-attachments/assets/e8786123-ca17-4c9c-a12b-f7f504444a37)
+![boattour5](https://github.com/user-attachments/assets/b05252d4-21c6-4dbe-aab2-8666a1c4e1e5)
+![boattour6](https://github.com/user-attachments/assets/4f776d19-e825-4caf-b44b-35bbe4d5683e)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  
